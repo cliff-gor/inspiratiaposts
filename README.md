@@ -1,8 +1,20 @@
-This is inspiratia posts, 
+Inspiratia Posts is a sleek, fast, and minimal web application built with Next.js v15 that fetches and displays posts from an online API. Users can search and filter posts by title, and navigate through paginated results presented in a clean, responsive table.
 
 ## Getting Started
 
-First, run the development server:
+First, Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+the run the development server:
 
 ```bash
 npm run dev
@@ -18,19 +30,25 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses [`Tailwind CSS`](https://tailwindcss.com/) for the UI and responsiveness
 
-## Learn More
+## Tech stack 
+- Framework: Next Js(v15)
+- Styling UI: Tailwind CSS
+- Testing: Jest with React Testing Library
+- Language: Typescript
 
-To learn more about Next.js, take a look at the following resources:
+## Running Tests
+To run tests for the components:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run test
+# or
+yarn run test
+```
+Tests are located in the `__test__` folder and uses `@testing-library/react` 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Author
+- Cliff Gor
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel free to reach out or contribute to the project!
